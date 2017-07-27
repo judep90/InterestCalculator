@@ -4,7 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace InterestCalculator.Tests
 {
     [TestClass]
-    public class UnitTest1
+    public class InterestCalculatorTests
     {
         [TestMethod]
         public void TestMethod1()
