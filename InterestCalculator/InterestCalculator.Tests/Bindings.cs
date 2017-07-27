@@ -1,4 +1,4 @@
-﻿using InterestCalculator.Logic;
+﻿using InterestCalculator.Logic.Calculators;
 using Ninject.Modules;
 
 namespace InterestCalculator.Tests
