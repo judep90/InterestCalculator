@@ -1,4 +1,4 @@
-﻿namespace InterestCalculator.Models
+﻿namespace InterestCalculator.Models.CreditCards
 {
     /// <summary>
     /// An abstraction to represent a credit card
@@ -9,7 +9,7 @@
         /// <summary>
         /// Interest rate for this CreditCard
         /// </summary>
-        public decimal InterestRate { get; set; }
+        public decimal InterestRate { get; protected set; }
 
         /// <summary>
         /// Balance on this CreditCard

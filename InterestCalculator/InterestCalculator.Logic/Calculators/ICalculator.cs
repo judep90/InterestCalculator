@@ -1,6 +1,9 @@
 ﻿using InterestCalculator.Models;
+using InterestCalculator.Models.CardHolders;
+using InterestCalculator.Models.CreditCards;
+using InterestCalculator.Models.Wallets;
 
-namespace InterestCalculator.Logic
+namespace InterestCalculator.Logic.Calculators
 {
     /// <summary>
     /// Interface defining the contract for interest rate calculators

@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using InterestCalculator.Logic;
+using Ninject.Modules;
 
 namespace InterestCalculator.Tests
 {
-    public class Bindings
+    public class Bindings : NinjectModule
     {
+        public override void Load()
+        {
+            Bind<ICalculator>().To<SimpleInterestCalculator>();
+        }
     }
 }

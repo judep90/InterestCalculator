@@ -1,7 +1,10 @@
 ﻿using System;
 using InterestCalculator.Models;
+using InterestCalculator.Models.CreditCards;
+using InterestCalculator.Models.Wallets;
+using InterestCalculator.Models.CardHolders;
 
-namespace InterestCalculator.Logic
+namespace InterestCalculator.Logic.Calculators
 {
     public class SimpleInterestCalculator : ICalculator
     {

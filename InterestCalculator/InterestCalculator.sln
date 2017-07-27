@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{66093FA4-8AF2-46A5-923A-2C5B27BA41ED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterestCalculator.Models", "InterestCalculator.Models\InterestCalculator.Models.csproj", "{E04A9D7C-07FB-4E79-9312-D21E6D0B2AA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterestCalculator.Logic", "InterestCalculator.Logic\InterestCalculator.Logic.csproj", "{A1E6B264-5D36-4F86-9810-48705BF6628E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterestCalculator.Tests", "InterestCalculator.Tests\InterestCalculator.Tests.csproj", "{1D012325-4140-4538-A550-F282D6BF7205}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{66093FA4-8AF2-46A5-923A-2C5B27BA41ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{66093FA4-8AF2-46A5-923A-2C5B27BA41ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{66093FA4-8AF2-46A5-923A-2C5B27BA41ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{66093FA4-8AF2-46A5-923A-2C5B27BA41ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E04A9D7C-07FB-4E79-9312-D21E6D0B2AA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E04A9D7C-07FB-4E79-9312-D21E6D0B2AA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E04A9D7C-07FB-4E79-9312-D21E6D0B2AA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E04A9D7C-07FB-4E79-9312-D21E6D0B2AA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1E6B264-5D36-4F86-9810-48705BF6628E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1E6B264-5D36-4F86-9810-48705BF6628E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1E6B264-5D36-4F86-9810-48705BF6628E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1E6B264-5D36-4F86-9810-48705BF6628E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D012325-4140-4538-A550-F282D6BF7205}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D012325-4140-4538-A550-F282D6BF7205}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D012325-4140-4538-A550-F282D6BF7205}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D012325-4140-4538-A550-F282D6BF7205}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

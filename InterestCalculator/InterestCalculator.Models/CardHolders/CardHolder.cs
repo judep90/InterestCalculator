@@ -1,6 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using InterestCalculator.Models.Wallets;
+using System.Collections.Generic;
 
-namespace InterestCalculator.Models
+namespace InterestCalculator.Models.CardHolders
 {
     /// <summary>
     /// An abstraction to represent an entity that can have wallets
@@ -11,6 +12,6 @@ namespace InterestCalculator.Models
         /// <summary>
         /// A collection of wallets owned by this CardHolder
         /// </summary>
-        public IEnumerable<Wallet> Wallets { get; set; }
+        public IList<Wallet> Wallets { get; set; } = new List<Wallet>();
     }
 }
